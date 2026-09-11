@@ -1,79 +1,24 @@
-﻿name,target_file,purpose,prompt
-SPEC.md Living Spec Policy,CLAUDE.md,Make SPEC.md grow incrementally with implementation decisions in Claude Code.,"# SPEC.md — living spec, grows with the build
+name,target_file,purpose,prompt
+SPEC.md Living Spec Policy,CLAUDE.md,Make SPEC.md grow incrementally with implementation decisions in Claude Code.,"# SPEC.md — living spec policy
 
-SPEC.md is this project's implementation-independent behavioral contract.
-It is not written upfront. Build it incrementally, in lockstep with the implementation.
+`SPEC.md` is this project's implementation-independent behavioral contract.
 
-## Bootstrap
+It grows with the build. Do not try to fully specify the project upfront unless explicitly asked.
 
-If `SPEC.md` is missing, create it with:
+Use the current SPEC.md Core from the official repository:
+https://github.com/SPECmd-app/SPEC.md/tree/main/standard/latest
 
-```yaml
----
-specmd: ""0.3.0""
-spec_version: ""0.1.0""
-status: draft
----
-```
+Treat that Core as authoritative. Do not search for or substitute another specification framework.
 
-Add a short Specification Contract stating that:
+If `SPEC.md` is missing, create the smallest useful starting spec that conforms to the Core.
 
-- uppercase MUST / MUST NOT / SHOULD / SHOULD NOT / MAY use BCP 14 semantics;
-- SPEC.md is authoritative for required behavior when it conflicts with implementation code or implementation documentation;
-- an unspecified internal detail that cannot materially affect conformance MAY be chosen by the implementer;
-- an omission or ambiguity that could materially affect observable behavior, data semantics, security, privacy, accessibility, interoperability, safety, or another normative property MUST be surfaced rather than silently resolved;
-- genuinely undecided behavior is marked `TBD` and is never guessed.
+Whenever you implement, change, or decide behavior, update `SPEC.md` in the same change.
 
-Create these Core sections, initially empty except where current project facts are already known:
+Do not invent product behavior. If a missing decision could materially affect conformance, mark it `TBD` / Open Issue and surface it.
 
-1. Overview and Scope
-2. Context and Definitions
-3. System Model
-4. Requirements
-5. Interfaces and External Contracts
-6. Constraints and Non-Goals
-7. Verification and Acceptance
-8. Notes and Rationale
+Keep `SPEC.md` lean, implementation-independent, and synchronized with the implementation.
 
-## Living-spec rule
+Before finishing a behavior-changing task, confirm that the implementation and `SPEC.md` describe the same behavior.
 
-Whenever you implement, change, or make a decision about user-facing or system behavior, update `SPEC.md` in the same change.
-
-Do not defer specification updates until the end.
-
-Add or update the smallest matching normative requirement. Requirements must be:
-
-- atomic;
-- normative;
-- implementation-independent;
-- explicit about defaults where omission could create materially different behavior;
-- explicit about deliberate prohibitions and exclusions.
-
-Do not name frameworks, libraries, source files, database mechanisms, or internal architecture unless that choice is itself a required constraint.
-
-When the first normative requirement is added, assign it a stable semantic ID such as `FUN-001`, `DATA-001`, `AUTH-001`, or `INT-001`. Keep IDs stable when requirements move. Never reuse retired IDs.
-
-Deliberate exclusions belong in **Constraints and Non-Goals** rather than being left implicit.
-
-Behaviorally significant features should include a short `Given / When / Then` acceptance note where that makes the behavior easier to verify.
-
-Rationale, history, and implementation advice belong in **Notes and Rationale** and are informative unless explicitly marked normative.
-
-## Versioning
-
-Bump `spec_version` whenever the specification changes:
-
-- **MAJOR** — a previously conforming implementation may become non-conforming;
-- **MINOR** — additive behavior that preserves previous conformance;
-- **PATCH** — clarification or editorial change with no normative behavioral difference.
-
-A code-only refactor that does not change the specified behavior does not require a spec-version bump.
-
-## Ambiguity policy
-
-If the specification leaves an internal implementation choice open and that choice cannot materially affect conformance, choose an appropriate implementation and continue.
-
-If the missing decision could materially affect required behavior or another normative property, add a `TBD` / Open Issue to `SPEC.md` and ask for clarification.
-
-Never invent product behavior merely to unblock implementation.
+If the official Core cannot be accessed, do not invent a replacement structure; say so and continue only from an existing `SPEC.md` or ask for guidance.
 "
