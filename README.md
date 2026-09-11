@@ -18,7 +18,7 @@ The goal is simple: make great designs portable. A SPEC.md should be understanda
 ## Repo layout
 
 ```
-standard/       the versioned SPEC.md standard itself (0.1.0 → 0.3.0)
+standard/       the versioned SPEC.md standard itself (0.2.0 → 0.3.0)
 examples/       one worked example ("Judo Club Website") at each standard version
 integrations/   drop-in CLAUDE.md / AGENTS.md prompts that keep a project's SPEC.md
                 up to date as a coding agent builds it

@@ -29,7 +29,6 @@ The goal is simple: make great designs portable. A SPEC.md should be understanda
 | --- | --- |
 | [0.3.0](standard/0.3.0.md) | Current |
 | [0.2.0](standard/0.2.0.md) | Superseded |
-| [0.1.0](standard/0.1.0.md) | Superseded |
 
 **[SPEC.md Optional 0.3.0](standard/0.3.0-optional.md)** — companion document of optional extensions, authoring patterns, and companion artifacts. Nothing in it is required for Core conformance; use only what materially helps a given project.
 
@@ -37,9 +36,6 @@ The goal is simple: make great designs portable. A SPEC.md should be understanda
 
 A single project ("Judo Club Website") specified at each stage of the standard's own evolution, so you can see how the same design reads under different versions:
 
-- [0.1.0](examples/judo-club-0.1.0.md)
-- [0.1.0, revised](examples/judo-club-0.1.0-revised.md)
-- [0.1.1](examples/judo-club-0.1.1.md)
 - [SPEC.md 0.2.0](examples/judo-club-specmd-0.2.0.md)
 - [SPEC.md 0.3.0](examples/judo-club-specmd-0.3.0.md)
 
