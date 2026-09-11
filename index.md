@@ -21,17 +21,20 @@ SPEC.md is an open format for expressing ideas and designs independently of how 
 
 The goal is simple: make great designs portable. A SPEC.md should be understandable on its own, so another person or LLM can take the specification and create a conforming implementation without access to the original source code or hidden project knowledge.
 
-**Latest version: [0.4.1](standard/0.4.1.md)** &nbsp;·&nbsp; [stable "latest" link](standard/latest)
+**Latest version: [0.4.2](standard/0.4.2.md)** &nbsp;·&nbsp; [stable "latest" link](standard/latest)
 
 ## The standard
 
 | Version | Status |
 | --- | --- |
-| [0.4.1](standard/0.4.1.md) | Current |
+| [0.4.2](standard/0.4.2.md) | Current |
+| [0.4.1](standard/0.4.1.md) | Superseded |
 | [0.3.0](standard/0.3.0.md) | Superseded |
 | [0.2.0](standard/0.2.0.md) | Superseded |
 
-**[SPEC.md Optional 0.4.1](standard/0.4.1-optional.md)** — companion document of optional extensions, authoring patterns, and companion artifacts. Nothing in it is required for Core conformance; use only what materially helps a given project.
+**[SPEC.md Optional 0.4.2](standard/0.4.2-optional.md)** — companion document of optional extensions, authoring patterns, and companion artifacts. Nothing in it is required for Core conformance; use only what materially helps a given project.
+
+See [`CHANGELOG.md`](CHANGELOG.md) for what changed in each version.
 
 ## Worked example
 
@@ -40,6 +43,7 @@ A single project ("Judo Club Website") specified at each stage of the standard's
 - [SPEC.md 0.2.0](examples/judo-club-specmd-0.2.0.md)
 - [SPEC.md 0.3.0](examples/judo-club-specmd-0.3.0.md)
 - [SPEC.md 0.4.1](examples/judo-club-specmd-0.4.1.md)
+- [SPEC.md 0.4.2](examples/judo-club-specmd-0.4.2.md)
 
 ## Living-spec integrations
 

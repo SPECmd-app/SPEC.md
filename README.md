@@ -18,13 +18,15 @@ The goal is simple: make great designs portable. A SPEC.md should be understanda
 ## Repo layout
 
 ```
-standard/       the versioned SPEC.md standard itself (0.2.0 → 0.4.1)
+standard/       the versioned SPEC.md standard itself (0.2.0 → 0.4.2)
 examples/       one worked example ("Judo Club Website") at each standard version
 integrations/   drop-in CLAUDE.md / AGENTS.md prompts that keep a project's SPEC.md
                 up to date as a coding agent builds it
 ```
 
-The latest version is **[0.4.1](standard/0.4.1.md)** (plus its optional companion, [`0.4.1-optional.md`](standard/0.4.1-optional.md)); `standard/latest/` always redirects to whichever version is current.
+The latest version is **[0.4.2](standard/0.4.2.md)** (plus its optional companion, [`0.4.2-optional.md`](standard/0.4.2-optional.md)); `standard/latest/` always redirects to whichever version is current.
+
+See [`CHANGELOG.md`](CHANGELOG.md) for what changed in each version.
 
 ## License
 
