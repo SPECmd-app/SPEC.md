@@ -19,4 +19,4 @@ The latest version is **[0.3.0](standard/0.3.0.md)**; `standard/latest/` always 
 
 ## License
 
-[MIT](LICENSE)
+[Apache-2.0](LICENSE)

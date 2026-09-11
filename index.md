@@ -40,4 +40,4 @@ Drop-in instructions that teach a coding agent to keep a project's `SPEC.md` up 
 
 ## License
 
-[MIT](LICENSE)
+[Apache-2.0](LICENSE)
