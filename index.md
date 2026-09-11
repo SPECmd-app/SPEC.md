@@ -39,6 +39,7 @@ A single project ("Judo Club Website") specified at each stage of the standard's
 
 - [SPEC.md 0.2.0](examples/judo-club-specmd-0.2.0.md)
 - [SPEC.md 0.3.0](examples/judo-club-specmd-0.3.0.md)
+- [SPEC.md 0.4.1](examples/judo-club-specmd-0.4.1.md)
 
 ## Living-spec integrations
 
