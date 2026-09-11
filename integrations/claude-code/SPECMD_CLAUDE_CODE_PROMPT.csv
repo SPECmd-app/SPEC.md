@@ -5,10 +5,10 @@ SPEC.md Living Spec Policy,CLAUDE.md,Make SPEC.md grow incrementally with implem
 
 It grows with the build. Do not try to fully specify the project upfront unless explicitly asked.
 
-Use the current SPEC.md Core from the official repository:
-https://github.com/SPECmd-app/SPEC.md/tree/main/standard/latest
+Use SPEC.md Core 0.4.1:
+https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/standard/0.4.1.md
 
-Treat that Core as authoritative. Do not search for or substitute another specification framework.
+Treat this Core file as authoritative. Do not search for or substitute another specification framework. Do not load SPEC.md Optional unless the project explicitly needs an optional extension.
 
 If `SPEC.md` is missing, create the smallest useful starting spec that conforms to the Core.
 
@@ -20,5 +20,5 @@ Keep `SPEC.md` lean, implementation-independent, and synchronized with the imple
 
 Before finishing a behavior-changing task, confirm that the implementation and `SPEC.md` describe the same behavior.
 
-If the official Core cannot be accessed, do not invent a replacement structure; say so and continue only from an existing `SPEC.md` or ask for guidance.
+If the Core file cannot be accessed, do not invent a replacement structure; continue only from an existing `SPEC.md` or ask for guidance.
 "
