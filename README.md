@@ -15,7 +15,7 @@ integrations/   drop-in CLAUDE.md / AGENTS.md prompts that keep a project's SPEC
                 up to date as a coding agent builds it
 ```
 
-The latest version is **[0.3.0](standard/0.3.0.md)**; `standard/latest/` always redirects to whichever version is current.
+The latest version is **[0.3.0](standard/0.3.0.md)** (plus its optional companion, [`0.3.0-optional.md`](standard/0.3.0-optional.md)); `standard/latest/` always redirects to whichever version is current.
 
 ## License
 
