@@ -40,10 +40,10 @@ See [`CHANGELOG.md`](CHANGELOG.md) for what changed in each version.
 
 A single project ("Judo Club Website") specified at each stage of the standard's own evolution, so you can see how the same design reads under different versions:
 
-- [SPEC.md 0.2.0](examples/judo-club-specmd-0.2.0.md)
-- [SPEC.md 0.3.0](examples/judo-club-specmd-0.3.0.md)
-- [SPEC.md 0.4.1](examples/judo-club-specmd-0.4.1.md)
 - [SPEC.md 0.4.2](examples/judo-club-specmd-0.4.2.md)
+- [SPEC.md 0.4.1](examples/judo-club-specmd-0.4.1.md)
+- [SPEC.md 0.3.0](examples/judo-club-specmd-0.3.0.md)
+- [SPEC.md 0.2.0](examples/judo-club-specmd-0.2.0.md)
 
 ## Living-spec integrations
 
