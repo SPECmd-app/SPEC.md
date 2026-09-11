@@ -1,0 +1,33 @@
+title: SPEC.md
+tagline: Portable Ideas and Designs
+description: >-
+  A lightweight, LLM-friendly standard for implementation-independent
+  software specifications.
+theme: jekyll-theme-primer
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+relative_links:
+  enabled: true
+  collections: true
+
+titles_from_headings:
+  enabled: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - "*.csv"
