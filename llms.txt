@@ -1,0 +1,23 @@
+# SPEC.md
+
+> SPEC.md is an open, Markdown-based format for describing a system's design and required behavior independently of any particular implementation, so a person or LLM can create a conforming implementation without the original codebase.
+
+## Core
+
+- [SPEC.md Core 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/standard/0.4.2.md): The current minimal, self-contained authoring standard. Start here.
+- [SPEC.md Optional 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/standard/0.4.2-optional.md): Optional extensions, richer authoring patterns, and companion artifacts. Use only what a project actually needs.
+
+## Example
+
+- [Judo Club Website SPEC.md (0.4.2)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/examples/judo-club-specmd-0.4.2.md): A complete worked example showing SPEC.md Core applied to a small multilingual website.
+
+## Agent integrations
+
+- [CLAUDE.md](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/integrations/claude-code/CLAUDE.md): Drop-in living-spec policy for Claude Code.
+- [AGENTS.md](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/integrations/codex/AGENTS.md): Drop-in living-spec policy for Codex.
+
+## Optional
+
+- [Changelog](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/CHANGELOG.md): What changed across versions.
+- [Previous Core versions](https://github.com/SPECmd-app/SPEC.md/tree/main/standard): 0.4.1, 0.3.0, and 0.2.0, kept for reference.
+- [License (Apache-2.0)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/LICENSE)

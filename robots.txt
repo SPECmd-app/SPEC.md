@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://specmd-app.github.io/SPEC.md/sitemap.xml
