@@ -9,7 +9,7 @@
 
 ## Example
 
-- [Judo Club Website SPEC.md (0.4.2)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/examples/judo-club-specmd-0.4.2.md): A complete worked example showing SPEC.md Core applied to a small multilingual website.
+- [Judo Club Website SPEC.md (0.4.3)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/examples/judo-club-specmd-0.4.3.md): A complete worked example showing SPEC.md Core applied to a small multilingual website.
 
 ## Agent integrations
 
