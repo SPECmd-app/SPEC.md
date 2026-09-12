@@ -19,13 +19,13 @@ The goal is simple: make great designs portable. A SPEC.md should be understanda
 
 ```
 docs/           the published site (GitHub Pages source): homepage and the
-                versioned standard (0.2.0 → 0.4.2)
+                versioned standard (0.2.0 → 0.4.3)
 examples/       one worked example ("Judo Club Website") at each standard version
 integrations/   drop-in CLAUDE.md / AGENTS.md prompts that keep a project's SPEC.md
                 up to date as a coding agent builds it
 ```
 
-The latest version is **[0.4.2](docs/standard/0.4.2.md)** (plus its optional companion, [`0.4.2-optional.md`](docs/standard/0.4.2-optional.md)); `docs/standard/latest/` always redirects to whichever version is current.
+The latest version is **[0.4.3](docs/standard/0.4.3.md)** (plus its optional companion, [`0.4.3-optional.md`](docs/standard/0.4.3-optional.md)); `docs/standard/latest/` always redirects to whichever version is current.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for what changed in each version.
 

@@ -2,6 +2,17 @@
 
 Notable changes to the SPEC.md standard. Each entry covers `docs/standard/<version>.md` (SPEC.md Core) and, where relevant, its Optional companion.
 
+## 0.4.3
+
+Clarification release focused on how stable semantic IDs interact with traceability. No Core structure or required behavior was changed.
+
+- **Added (Core):** Stable IDs may also identify non-requirement elements such as behavioral flows. An ID alone does not make an element normative — when traceability is used, TRACE coverage follows normative obligations, not every label in the document.
+- **Clarified (Optional, flow identifiers):** A flow identifier identifies a behavioral flow; a flow ID does not by itself make the flow a normative requirement.
+- **Clarified (Optional, TRACE.md):** A semantic ID does not by itself make an element a normative requirement. Behavioral flows and other identified elements MAY be traced when useful, but their IDs do not automatically require TRACE coverage.
+- **Clarified (Optional, example trace chain):** A flow may appear in a trace chain because it helps explain how a requirement is realized, without implying every identified flow requires a TRACE.md entry.
+
+**Compatibility:** a specification conforming to 0.4.2 should remain conforming to 0.4.3, unless tooling previously treated every ID-shaped label as a mandatory normative trace target — tools should classify identifiers by semantic role rather than by identifier syntax alone.
+
 ## 0.4.2
 
 Small clarification release focused on preventing over-design while preserving the living-spec model. No new Core section or optional framework was added.

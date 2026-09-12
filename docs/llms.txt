@@ -4,8 +4,8 @@
 
 ## Core
 
-- [SPEC.md Core 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.2.md): The current minimal, self-contained authoring standard. Start here.
-- [SPEC.md Optional 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.2-optional.md): Optional extensions, richer authoring patterns, and companion artifacts. Use only what a project actually needs.
+- [SPEC.md Core 0.4.3](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.3.md): The current minimal, self-contained authoring standard. Start here.
+- [SPEC.md Optional 0.4.3](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.3-optional.md): Optional extensions, richer authoring patterns, and companion artifacts. Use only what a project actually needs.
 
 ## Example
 
@@ -23,5 +23,5 @@
 ## Optional
 
 - [Changelog](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/CHANGELOG.md): What changed across versions.
-- [Previous Core versions](https://github.com/SPECmd-app/SPEC.md/tree/main/docs/standard): 0.4.1, 0.3.0, and 0.2.0, kept for reference.
+- [Previous Core versions](https://github.com/SPECmd-app/SPEC.md/tree/main/docs/standard): 0.4.2, 0.4.1, 0.3.0, and 0.2.0, kept for reference.
 - [License (Apache-2.0)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/LICENSE)

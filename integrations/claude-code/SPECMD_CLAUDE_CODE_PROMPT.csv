@@ -5,8 +5,8 @@ SPEC.md Living Spec Policy,CLAUDE.md,Make SPEC.md grow incrementally with implem
 
 It grows with the build. Do not try to fully specify the project upfront unless explicitly asked.
 
-Use SPEC.md Core 0.4.2:
-https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.2.md
+Use SPEC.md Core 0.4.3:
+https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.3.md
 
 Treat this Core file as authoritative. Do not search for or substitute another specification framework. Do not load SPEC.md Optional unless the project explicitly needs an optional extension.
 
