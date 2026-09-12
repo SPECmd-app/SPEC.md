@@ -30,6 +30,15 @@
       "codeRepository": "https://github.com/SPECmd-app/SPEC.md",
       "license": "https://github.com/SPECmd-app/SPEC.md/blob/main/LICENSE",
       "programmingLanguage": "Markdown"
+    },
+    "mentions": {
+      "@type": "SoftwareApplication",
+      "name": "specmd-cli",
+      "applicationCategory": "DeveloperApplication",
+      "description": "Companion CLI and MCP server for authoring, validating, inspecting, rendering, and tracing SPEC.md documents.",
+      "url": "https://github.com/SPECmd-app/specmd-cli",
+      "codeRepository": "https://github.com/SPECmd-app/specmd-cli",
+      "license": "https://github.com/SPECmd-app/specmd-cli/blob/main/LICENSE"
     }
   }
   </script>
@@ -435,12 +444,19 @@
       padding: 20px;
       border: 1px solid var(--line);
       border-radius: 10px;
+      display: flex;
+      flex-direction: column;
     }
 
     .family-card p {
       margin: 0;
       color: #555;
       font-size: 14px;
+    }
+
+    .family-card .button-row {
+      margin-top: auto;
+      padding-top: 24px;
     }
 
     footer {
