@@ -4,12 +4,12 @@
 
 ## Core
 
-- [SPEC.md Core 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/standard/0.4.2.md): The current minimal, self-contained authoring standard. Start here.
-- [SPEC.md Optional 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/standard/0.4.2-optional.md): Optional extensions, richer authoring patterns, and companion artifacts. Use only what a project actually needs.
+- [SPEC.md Core 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.2.md): The current minimal, self-contained authoring standard. Start here.
+- [SPEC.md Optional 0.4.2](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.2-optional.md): Optional extensions, richer authoring patterns, and companion artifacts. Use only what a project actually needs.
 
 ## Example
 
-- [Judo Club Website SPEC.md (0.4.2)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/examples/judo-club-specmd-0.4.2.md): A complete worked example showing SPEC.md Core applied to a small multilingual website.
+- [Judo Club Website SPEC.md (0.4.2)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/examples/judo-club-specmd-0.4.2.md): A complete worked example showing SPEC.md Core applied to a small multilingual website.
 
 ## Agent integrations
 

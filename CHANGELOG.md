@@ -1,6 +1,6 @@
 # Changelog
 
-Notable changes to the SPEC.md standard. Each entry covers `standard/<version>.md` (SPEC.md Core) and, where relevant, its Optional companion.
+Notable changes to the SPEC.md standard. Each entry covers `docs/standard/<version>.md` (SPEC.md Core) and, where relevant, its Optional companion.
 
 ## 0.4.2
 
@@ -22,4 +22,4 @@ Promoted the material-ambiguity test into Core and defined root-owned versioning
 
 ## 0.2.0
 
-Earlier draft of the standard. See [`standard/0.2.0.md`](standard/0.2.0.md).
+Earlier draft of the standard. See [`docs/standard/0.2.0.md`](docs/standard/0.2.0.md).
