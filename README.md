@@ -18,9 +18,9 @@ The goal is simple: make great designs portable. A SPEC.md should be understanda
 ## Repo layout
 
 ```
-docs/           the published site (GitHub Pages source): homepage, the versioned
-                standard (0.2.0 → 0.4.2), and worked examples ("Judo Club Website")
-                at each standard version
+docs/           the published site (GitHub Pages source): homepage and the
+                versioned standard (0.2.0 → 0.4.2)
+examples/       one worked example ("Judo Club Website") at each standard version
 integrations/   drop-in CLAUDE.md / AGENTS.md prompts that keep a project's SPEC.md
                 up to date as a coding agent builds it
 ```
