@@ -488,6 +488,7 @@
           <a href="#core">Core</a>
           <a href="#example">Example</a>
           <a href="#family">Family</a>
+          <a href="#tooling">Tooling</a>
           <a href="#versions">Versions</a>
           <a
             class="github-link"
@@ -829,6 +830,80 @@ Agent integration
           </p>
         </div>
       </div>
+    </section>
+
+    <section id="tooling">
+      <div class="family-note">
+        <h2>specmd — the CLI.</h2>
+
+        <p class="lead">
+          A companion command-line tool and MCP server for working with SPEC.md
+          documents. SPEC.md itself never depends on it.
+        </p>
+
+        <p>
+          <a href="https://github.com/SPECmd-app/specmd-cli">specmd-cli</a> can
+          init, validate, inspect, render, and trace a SPEC.md, generate thin
+          adapters for Codex, Claude Code, Cursor, and GitHub Copilot, and expose
+          the same operations to AI assistants over MCP as <code>specmd-mcp</code>.
+        </p>
+
+        <p>
+          It goes beyond syntax checks: a deterministic
+          <strong>Black-Box Contract</strong> inventory surfaces exactly what a design
+          promises the outside world, and per-requirement verification coverage
+          shows what's actually tested. An optional
+          <a href="https://github.com/SPECmd-app/specmd-cli/blob/main/SPECMD_CUCUMBER_CONNECTOR.md">Cucumber connector</a>
+          is already specified.
+        </p>
+
+        <div class="button-row">
+          <a class="button primary" href="https://github.com/SPECmd-app/specmd-cli">View specmd-cli</a>
+        </div>
+      </div>
+
+      <div class="family-details">
+        <div class="family-card">
+          <h3>Author &amp; validate</h3>
+          <p>
+            <code>specmd init</code>, <code>specmd validate</code> — create a
+            minimal SPEC.md and check structural conformance, including Trace
+            Pair and version-alignment checks.
+          </p>
+        </div>
+
+        <div class="family-card">
+          <h3>Inspect &amp; trace</h3>
+          <p>
+            <code>specmd inspect</code>, <code>specmd trace create/update</code>
+            — a read-only quality report, and generating or reconciling a
+            TRACE.md.
+          </p>
+        </div>
+
+        <div class="family-card">
+          <h3>Render &amp; adapt</h3>
+          <p>
+            <code>specmd render</code>, <code>specmd adapt &lt;target&gt;</code>
+            — HTML rendering, and thin adapter generation for Codex, Claude Code,
+            Cursor, and GitHub Copilot.
+          </p>
+        </div>
+
+        <div class="family-card">
+          <h3>specmd-mcp</h3>
+          <p>
+            An MCP stdio server exposing the same operations as tools, so an AI
+            assistant can validate, inspect, and trace a SPEC.md directly.
+          </p>
+        </div>
+      </div>
+
+      <p class="lead" style="margin-top: 28px;">
+        <strong>Install:</strong> not yet published to PyPI — install from
+        source:
+        <code>git clone https://github.com/SPECmd-app/specmd-cli &amp;&amp; cd specmd-cli &amp;&amp; pip install -e .</code>
+      </p>
     </section>
 
     <section id="versions">
