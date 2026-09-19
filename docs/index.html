@@ -514,7 +514,7 @@
   }
   function ui(){
     var b=document.createElement('div');b.id='cc-banner';b.setAttribute('role','dialog');b.setAttribute('aria-label','Analytics consent');
-    b.innerHTML='<p>This site can use Google Analytics cookies to count visits. Nothing is loaded unless you accept.</p><div class="cc-actions"><button id="cc-decline" type="button">Decline</button><button id="cc-accept" type="button">Accept</button></div>';
+    b.innerHTML='<p>This site can use Google Analytics cookies. Nothing is reported unless you accept.</p><div class="cc-actions"><button id="cc-decline" type="button">Decline</button><button id="cc-accept" type="button">Accept</button></div>';
     var r=document.createElement('button');r.id='cc-reopen';r.type='button';r.textContent='Cookie settings';
     document.body.appendChild(b);document.body.appendChild(r);
     function show(){b.style.display='block';r.style.display='none'}
