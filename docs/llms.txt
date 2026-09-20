@@ -7,9 +7,18 @@
 - [SPEC.md Core 0.4.3](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.3.md): The current minimal, self-contained authoring standard. Start here.
 - [SPEC.md Optional 0.4.3](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/docs/standard/0.4.3-optional.md): Optional extensions, richer authoring patterns, and companion artifacts. Use only what a project actually needs.
 
-## Example
+## Example (reference)
 
 - [Judo Club Website SPEC.md (0.4.3)](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/examples/judo-club-specmd-0.4.3.md): A complete worked example showing SPEC.md Core applied to a small multilingual website.
+
+## Portables
+
+- [Judo Club Website](https://raw.githubusercontent.com/SPECmd-app/SPEC.md/main/examples/judo-club-specmd-0.4.3.md): The canonical example and a fully implementable portable: a small multilingual club website.
+- [SPEC.md Website](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/spec-md-website/SPEC.md): This site's own spec, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/spec-md-website/TRACE.md).
+- [specmd CLI](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/specmd-cli/SPEC.md): Core plus Optional spec for the companion tool, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/specmd-cli/TRACE.md).
+- [Internal IT Ticketing System](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/internal-it-ticketing-system/SPEC.md): A Core-only living spec that leaves undecided items as TBD.
+- [Portables page](https://specmd-app.github.io/SPEC.md/portables.html): The Portables page on this site.
+- [All portables](https://github.com/SPECmd-app/spec-md-examples): The full collection of real-project SPEC.md files.
 
 ## Agent integrations
 
