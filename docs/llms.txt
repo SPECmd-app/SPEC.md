@@ -17,6 +17,7 @@
 - [SPEC.md Website](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/spec-md-website/SPEC.md): This site's own spec, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/spec-md-website/TRACE.md).
 - [specmd CLI](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/specmd-cli/SPEC.md): Core plus Optional spec for the companion tool, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/specmd-cli/TRACE.md).
 - [Internal IT Ticketing System](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/internal-it-ticketing-system/SPEC.md): A Core-only living spec that leaves undecided items as TBD.
+- [Headless BPM](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/headless-bpm/SPEC.md): Core plus Optional spec for a durable, BPMN 2.0-aligned, interface-free process orchestration system, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/headless-bpm/TRACE.md) and a logical [ERD.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/headless-bpm/ERD.md).
 - [Portables page](https://specmd-app.github.io/SPEC.md/portables.html): The Portables page on this site.
 - [All portables](https://github.com/SPECmd-app/spec-md-examples): The full collection of real-project SPEC.md files.
 
