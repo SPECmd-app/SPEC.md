@@ -18,6 +18,7 @@
 - [specmd CLI](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/specmd-cli/SPEC.md): Core plus Optional spec for the companion tool, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/specmd-cli/TRACE.md).
 - [Internal IT Ticketing System](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/internal-it-ticketing-system/SPEC.md): A Core-only living spec that leaves undecided items as TBD.
 - [Headless BPM](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/headless-bpm/SPEC.md): Core plus Optional spec for a durable, BPMN 2.0-aligned, interface-free process orchestration system, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/headless-bpm/TRACE.md), a logical [ERD.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/headless-bpm/ERD.md).
+- [Karesansui Zen Garden](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/karesansui-zen-garden/SPEC.md): Core spec for a single-file browser zen garden game that specifies its experience (layouts, wording, timing) as well as its rules, with a paired [TRACE.md](https://raw.githubusercontent.com/SPECmd-app/spec-md-examples/main/karesansui-zen-garden/TRACE.md).
 - [Portables page](https://specmd-app.github.io/SPEC.md/portables.html): The Portables page on this site.
 - [All portables](https://github.com/SPECmd-app/spec-md-examples): The full collection of real-project SPEC.md files.
 
